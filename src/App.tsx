@@ -36,7 +36,7 @@ export default function App() {
       <Navbar toggle={toggle} />
       <Dropdown isOpen={isOpen}   />
       <Routes>
-         <Route  path="/home" element={<Index/>} />
+         <Route  path="/" element={<Index/>} />
          <Route  path="/menu" element={<Menu/>} />
          <Route  path="/about" element={<About/>} />
          <Route  path="/contact" element={<Contact/>} />
