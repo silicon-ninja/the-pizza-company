@@ -24,7 +24,7 @@ const Content = () => {
     <div className='flex flex-col justify-center items-center'>
 
       <h2 className='text-2xl mb-2' >The New York Pizza </h2>
-      <p className='mb-2'>This is the Budget One if you want to become fat</p>
+      <p className='mb-2 p-5'>This is the Budget One if you want to become fat</p>
       <span>$1 (Go to New York)</span>
 
     </div>
