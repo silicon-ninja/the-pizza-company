@@ -4,7 +4,6 @@ import Hero from '../components/Hero';
 
 const Index = () => {
   return <>
-
 <Hero />
       <Content />
   </>;

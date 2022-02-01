@@ -34,9 +34,9 @@ export default function App() {
   return (
     <>
       <Navbar toggle={toggle} />
-      <Dropdown isOpen={isOpen} toggle={toggle} />
+      <Dropdown isOpen={isOpen}   />
       <Routes>
-         <Route  path="/" element={<Index/>} />
+         <Route  path="/home" element={<Index/>} />
          <Route  path="/menu" element={<Menu/>} />
          <Route  path="/about" element={<About/>} />
          <Route  path="/contact" element={<Contact/>} />

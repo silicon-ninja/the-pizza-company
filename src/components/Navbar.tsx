@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Navbar = ({ toggle }) => {
+const Navbar = ({toggle} : {toggle:any}) => {
   return (
     <nav
       className='flex justify-between items-center h-16 bg-white text-black relative shadow-sm font-mono'

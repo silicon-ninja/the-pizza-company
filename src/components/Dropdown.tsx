@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Dropdown = ({ isOpen, toggle }) => {
+const Dropdown = ({isOpen} : {isOpen:any}, {toggle} : {toggle:any} ) => {
   return (
     <div
       className={
